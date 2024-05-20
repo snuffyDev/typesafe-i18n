@@ -169,6 +169,6 @@
 	},
 	"bin": {
 		"typesafe-i18n": "cli/typesafe-i18n.mjs"
-	}
+	},
 	"packageManager": "pnpm@8.6.7"
 }
