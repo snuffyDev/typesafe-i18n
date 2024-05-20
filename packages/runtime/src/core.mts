@@ -123,7 +123,9 @@ type Permutation<T extends string, U extends string = T> = [T] extends [never]
 	? [T, ...Permutation<Exclude<U, T>>]
 	: [T]
 
-type WrapParam<P> = P extends string ? `{${P}}` : never
+// Added fix for the issue with type generation
+type Type = string | number | boolean | bigint | undefined | null
+type WrapParam<P> = P extends string ? `{${P}:${Type}}` : never
 
 type ConstructString<Params extends unknown[]> = Params extends []
 	? `${string}`
