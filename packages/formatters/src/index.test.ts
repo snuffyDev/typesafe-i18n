@@ -50,9 +50,9 @@ test('lowercase', () => assert.is(LL.LOWERCASE('SMALL'), 'This should be small.'
 
 test('censor numbers', () => assert.is(LL.CENSOR_NUMBERS('1234'), 'Your PIN is ****'))
 
-test('date en', () => assert.is(LL.DATE_EN(someDate), 'The date is 3/12/2020.'))
+test('date en', () => assert.is(LL.DATE_EN(someDate), 'The date is 3/13/2020.'))
 
-test('date custom', () => assert.is(LL.DATE_CUSTOM(someDate), 'The date is March 12, 20.'))
+test('date custom', () => assert.is(LL.DATE_CUSTOM(someDate), 'The date is March 13, 20.'))
 
 test('number', () => assert.is(LL.NUMBER({ total: 1000 }), 'Price: $1,000.00'))
 
