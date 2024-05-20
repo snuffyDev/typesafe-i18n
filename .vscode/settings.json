@@ -1,7 +1,7 @@
 {
 	"editor.codeActionsOnSave": {
-		"source.sortImports": true,
-		"source.fixAll.eslint": true
+		"source.sortImports": "explicit",
+		"source.fixAll.eslint": "explicit"
 	},
 	"editor.formatOnSave": false,
 	"files.eol": "auto",
