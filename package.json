@@ -1,12 +1,12 @@
 {
-	"name": "typesafe-i18n",
+	"name": "@wobedi/typesafe-i18n",
 	"version": "5.26.4",
-	"description": "A fully type-safe and lightweight internationalization library for all your TypeScript and JavaScript projects.",
-	"author": "ivanhofer",
-	"homepage": "https://github.com/ivanhofer/typesafe-i18n",
+	"description": "FORK of typesafe-i18n - a fully type-safe and lightweight internationalization library for all your TypeScript and JavaScript projects.",
+	"author": "wobedi",
+	"homepage": "https://github.com/snuffyDev/typesafe-i18n",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ivanhofer/typesafe-i18n"
+		"url": "https://github.com/snuffyDev/typesafe-i18n"
 	},
 	"keywords": [
 		"i18n",
@@ -169,10 +169,6 @@
 	},
 	"bin": {
 		"typesafe-i18n": "cli/typesafe-i18n.mjs"
-	},
-	"funding": {
-		"type": "github",
-		"url": "https://github.com/sponsors/ivanhofer"
-	},
+	}
 	"packageManager": "pnpm@8.6.7"
 }
