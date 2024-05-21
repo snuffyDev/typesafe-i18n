@@ -1,6 +1,6 @@
 {
 	"name": "@wobedi/typesafe-i18n",
-	"version": "5.26.6",
+	"version": "5.26.7",
 	"description": "FORK of typesafe-i18n - a fully type-safe and lightweight internationalization library for all your TypeScript and JavaScript projects.",
 	"author": "wobedi",
 	"homepage": "https://github.com/snuffyDev/typesafe-i18n",
